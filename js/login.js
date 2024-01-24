@@ -6,11 +6,11 @@ const form = document.querySelector('.loginForm')
 // Verificar se o usuário digitou algo no campo de login > 2
 const validationInput = ({ target }) => {
    if(target.value.length > 2) {
-    button.removeAttribute('disable');
+    button.removeAttribute('disabled');
     return;
    } 
    
-   button.setAttribute('disable', '');
+   button.setAttribute('disabled', '');
 }
 
 const handleSubmit = (event) => {

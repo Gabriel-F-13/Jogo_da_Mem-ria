@@ -1,3 +1,3 @@
-# Jogo_da_Memoria
+# Memory Game
 
 ![Brain Rick](images/cerebro.jpg)
